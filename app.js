@@ -100,18 +100,18 @@ function constructImages() {
 
 
 // make a function that randomizes images
-function getRandomImage() {
-    // a random index
-    let random_index = Math.floor(Math.random() * productNames.length);
-    let selectImage = productNames[random_index]
-    document.getElementById('image_shower').src = `./assets/${selectImage}`
-    random_index = Math.floor(Math.random() * productNames.length);
-    selectImage = productNames[random_index]
-    document.getElementById('image_shower2').src = `./assets/${selectImage}`
-    random_index = Math.floor(Math.random() * productNames.length);
-    selectImage = productNames[random_index]
-    document.getElementById('image_shower3').src = `./assets/${selectImage}`
-}
+// function getRandomImage() {
+//     // a random index
+//     let random_index = Math.floor(Math.random() * productNames.length);
+//     let selectImage1 = productNames[random_index]
+//     document.getElementById('image_shower').src = `./assets/${selectImage1}`
+//     random_index = Math.floor(Math.random() * productNames.length);
+//     selectImage2 = productNames[random_index]
+//     document.getElementById('image_shower2').src = `./assets/${selectImage2}`
+//     random_index = Math.floor(Math.random() * productNames.length);
+//     selectImage3 = productNames[random_index]
+//     document.getElementById('image_shower3').src = `./assets/${selectImage3}`
+// }
 
 // make a function to keep track of the times an obj is clicked.
 
